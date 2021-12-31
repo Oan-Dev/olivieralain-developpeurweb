@@ -10,7 +10,6 @@ body {
 
 }
 /* le corps de l'index */
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -31,8 +30,7 @@ a {
 
 }
 
-/* l'entête  */
-
+/* l'entête avec la navBar  */
 header {
   display: flex;
   width: 100%;
@@ -55,7 +53,6 @@ nav ul li {
 }
 
 /* le corps du Portfolio */
-
 .main-box {
 height: 1000px;
 width: 100%;
@@ -66,30 +63,62 @@ padding: auto;
 }
 
 /* Le slogan et titre h1 */
+
+/* le slogan */
 .welcome {
-  width: auto;
-  height: 50px;
+  width: 100%;
+  height: 80px;
   margin: 10px 0;
   background-color: darkorange;
-  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
+.welcome span {
+ font-size: 28px;
+ width: 50%;
+ margin: auto;
+ background-color: #808080;
+}
+.welcome span:last-child {
+  width: 40%;
+}
+
+/* le bloc du titre h1 */
 .main-title {
   width: 100%;
   height: 120px;
-  margin: 20px 0;
   background-color: darkorange;
-  padding: auto;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-title h1 {
   font-size: 32px;
-  width: 100%;
+  width: 70%;
+  margin: auto;
+  background-color: #808080;
+}
+h1 span:first-child {
+  width: 20%;
+  margin: auto;
+  background-color: aqua
+}
+h1 span:nth-child(2) {
+  width: 20%;
+  margin: auto;
+  background-color: lightgreen;
+}
+h1 span:last-child {
+  width: 20%;
+  margin: auto;
+  background-color: aqua
 }
 
 /* les sections des présentations
 des services et des réalisations */
-
 .mes-services, .mes-projets {
     width: 100%;
     height: 450px;
