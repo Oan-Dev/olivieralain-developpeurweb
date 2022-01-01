@@ -131,6 +131,28 @@ des services et des réalisations */
     background-color: #808080;
 
 }
+/* le btn call to action vers le formulaire */
+.container__btn {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.btn__formulaire {
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #303030;
+  margin: auto;
+}
+.btn__formulaire a {
+  width: inherit;
+  height: inherit;
+  margin: 20px;
+  padding: 20px;
+  background-color: #808080;
+
+}
+
 
 
 /* Le footer de l'index */
