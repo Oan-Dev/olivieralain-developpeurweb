@@ -17,12 +17,13 @@ body {
   width: 100%;
   height: 1700px;
 
-  /* background-color: #808080; */
+  background-color: rebeccapurple;
   /* background-image: url(../images/jungle-1807476_960_720.jpg); */
-  background-image: url(../images/forestSheets.png);
-  background-size: cover;
+  /* background-image: url(../images/forestSheets.png); */
+  /* background-image: url(../images/the-1865639_960_720.jpg); */
+  /* background-size: cover; */
   /* background-position-x: -800px; */
-  background-position-x: -600px;
+  /* background-position-x: -600px; */
 
 }
 
@@ -77,17 +78,23 @@ padding: auto;
   align-items: center;
   justify-content: center;
 
+
 }
 .welcome span {
  font-weight: bold;
- font-size: 24px;
- /* color: lightgreen; */
- width: 50%;
+ font-size: 22px;
+ color: #fff;
+ width: 45%;
+ height: 100px;
+ padding: 8px;
  margin: auto;
- /* background-color: #808080; */
+ background-color: #303030;
+ border-radius: 15px;
+ justify-content: center;
 }
 .welcome span:last-child {
-  width: 40%;
+  width: 35%;
+  margin-top: 10px;
 }
 
 /* le bloc du titre h1 */
@@ -112,17 +119,32 @@ padding: auto;
 h1 span:first-child {
   width: 75%;
   margin: auto;
+  padding: 8px;
+  color: blue;
+
   /* background-color: aqua */
+  /* background-color: #303030; */
+  border-radius: 15px;
 }
 h1 span:nth-child(2) {
   width: 80%;
   margin: auto;
+  padding: 8px;
+  color: #fff;
+
   /* background-color: lightgreen; */
+  /* background-color: #303030; */
+  border-radius: 15px;
 }
 h1 span:last-child {
   width: 85%;
   margin: auto;
+  padding: 8px;
+  color: #fff;
+
   /* background-color: aqua */
+  /* background-color: #303030; */
+  border-radius: 15px;
 }
 
 /* les sections des présentations
