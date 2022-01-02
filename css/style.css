@@ -138,6 +138,22 @@ des services et des réalisations */
     background-color: #808080;
 
 }
+.Container__projects {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.Container__projects a {
+  display: inline-block;
+}
+/* Mes réalisations */
+.Projects-Card {
+  width: 120px;
+  height: 150px;
+
+}
+
 /* le btn call to action vers le formulaire */
 .container__btn {
   width: 100%;
