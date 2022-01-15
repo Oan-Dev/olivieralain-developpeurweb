@@ -1,14 +1,14 @@
-
 /* Mobile first layout */
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100%;
   display: flex;
-
 }
+
 /* le corps de l'index */
 .main-container {
   display: flex;
@@ -21,7 +21,6 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-
 }
 
 /* l'entête avec la navBar  */
@@ -31,6 +30,7 @@ header {
   height: 120px;
   background-color: #303030;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -43,19 +43,16 @@ nav {
 nav ul li {
   list-style: none;
   margin: 8px 0;
-
 }
 
 /* le corps du Portfolio */
 .main__box {
-height: 2000px;
-width: 100%;
-margin-top: 20px;
-
+  height: 2000px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 /* Le slogan et titre h1 */
-
 /* le slogan */
 .welcome {
   width: 100%;
@@ -65,19 +62,19 @@ margin-top: 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 }
+
 .welcome span {
- font-weight: bold;
- font-size: 20px;
- color: #ffc576;
- width: 55%;
- height: 100px;
- padding: 8px;
- margin: auto;
- justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffc576;
+  width: 55%;
+  height: 100px;
+  padding: 8px;
+  margin: auto;
+  justify-content: center;
 }
+
 .welcome span:last-child {
   width: 45%;
   margin-top: 10px;
@@ -91,6 +88,7 @@ margin-top: 20px;
   align-items: center;
   justify-content: center;
 }
+
 .main-title h1 {
   font-size: 24px;
   color: #fff;
@@ -101,16 +99,19 @@ margin-top: 20px;
   flex-direction: column;
   justify-content: center;
 }
+
 h1 span:first-child {
   width: 90%;
   margin: auto;
   padding: 8px;
 }
+
 h1 span:nth-child(2) {
   width: 90%;
   margin: auto;
   padding: 8px;
 }
+
 h1 span:last-child {
   width: 90%;
   margin: auto;
@@ -120,11 +121,12 @@ h1 span:last-child {
 /* les sections des présentations
 des services et des réalisations */
 .mes__services, .mes__projets {
-    width: 100%;
-    height: 900px;
-    margin: 100px 0 0 0;
-    background-color: #808080;
+  width: 100%;
+  height: 900px;
+  margin: 100px 0 0 0;
+  background-color: #808080;
 }
+
 .Container__projects,
 .container__services {
   width: 100%;
@@ -132,10 +134,12 @@ des services et des réalisations */
   display: flex;
   flex-direction: column;
 }
+
 .Container__projects a,
 .container__services a {
   display: inline-block;
 }
+
 /* Mes Services */
 .services-card {
   width: 90%;
@@ -144,6 +148,7 @@ des services et des réalisations */
   border-radius: 15px;
   background-color: blueviolet;
 }
+
 .integration, .development {
   width: 100%;
   height: inherit;
@@ -151,13 +156,14 @@ des services et des réalisations */
   padding: 10px;
   display: flex;
   flex-direction: column;
-
 }
+
 .integration h3, .development h3 {
   justify-content: center;
   width: 50%;
   margin: auto;
 }
+
 /* Mes réalisations */
 .Projects-Card {
   width: 90%;
@@ -168,10 +174,12 @@ des services et des réalisations */
   display: flex;
   flex-direction: column;
 }
+
 .reservia, .ohmyfood, .chouette-agence {
   width: 100%;
   height: 85%;
 }
+
 .reservia img,
 .ohmyfood img,
 .chouette-agence img {
@@ -179,6 +187,7 @@ des services et des réalisations */
   height: 100%;
   object-fit: contain;
 }
+
 .title-projects {
   justify-content: center;
   margin: auto;
@@ -192,6 +201,7 @@ des services et des réalisations */
   justify-content: center;
   padding-top: 15px;
 }
+
 .btn__formulaire {
   display: flex;
   width: 250px;
@@ -200,6 +210,7 @@ des services et des réalisations */
   background-color: #8e6440;
   margin: auto;
 }
+
 .btn__formulaire a {
   width: 60%;
   height: 50%;
@@ -210,8 +221,6 @@ des services et des réalisations */
   font-size: 1.15rem;
   color: #fff;
 }
-
-
 
 /* Le footer de l'index */
 footer {
@@ -227,10 +236,12 @@ footer {
   height: inherit;
   margin: 20px;
 }
+
 .list__footer {
   width: auto;
   margin: 20px 0 0 10px;
 }
+
 .list__footer ul li {
   list-style: none;
   margin-bottom: 10px;
