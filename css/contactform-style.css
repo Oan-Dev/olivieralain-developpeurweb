@@ -79,21 +79,22 @@ box-sizing: border-box;
 }
 .contact__box form {
   width: 80%;
+  height: 100%;
   margin: auto;
-
+  padding: 15px;
+  background-color: black;
+  border-radius: 15px 15px 0 0;
 
 }
 
 .form-group {
   width: 80%;
   margin: 0 5px 20px 5px;
-  /* margin: auto; */
-  /* margin: 5px; */
   padding: 20px;
   color: #fff;
   font-size: 1.05rem;
-  background-color: black;
-
+  background-color: #303030;
+  border-radius: 15px 15px 0 0;
 }
 .form-group label {
   width: 50%;
@@ -115,7 +116,7 @@ box-sizing: border-box;
 }
 /* le Bouton */
 .btn__box {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 .btn__box button {
