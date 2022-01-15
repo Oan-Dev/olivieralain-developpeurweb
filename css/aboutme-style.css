@@ -1,0 +1,112 @@
+/* Mobile first layout */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  display: flex;
+
+}
+/* le corps de l'index */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1500px;
+  background-color: #1f2235;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+/* l'entête avec la navBar  */
+header {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background-color: #303030;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  height: inherit;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 8px 0;
+
+}
+
+/* le corps du Portfolio */
+.main__box {
+height: 1200px;
+width: 100%;
+margin-top: 20px;
+padding: 20px;
+box-sizing: border-box;
+
+
+}
+
+.main__box div:first-child {
+  width: 70%;
+  height: 40px;
+  margin: auto;
+  padding: 5px 5px 3px 15px;
+  /* font-size: .9rem; */
+  color: #fff;
+  font-weight: bold;
+  background-color: darkgreen;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.main__box section {
+    color: #fff;
+    width: 90%;
+    padding: 15px;
+    /* height: 250px; */
+    border-radius: 15px 15px 0 0;
+    background-color: black;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    box-sizing: content-box;
+}
+
+.main__box section p {
+  margin: auto;
+  width: 90%;
+  text-align: justify;
+}
+
+
+/* Le footer de aboutme */
+footer {
+  width: auto;
+  height: auto;
+  background-color: #303030;
+  margin-top: 150px;
+  color: #fff;
+}
+
+.container__down {
+  width: 90%;
+  height: inherit;
+  margin: 20px;
+}
+.list__footer {
+  width: auto;
+  margin: 20px 0 0 10px;
+}
+.list__footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
