@@ -50,6 +50,31 @@ nav ul li {
   height: 2000px;
   width: 100%;
   margin-top: 20px;
+  /* box-sizing: content-box; */
+}
+.main__box section {
+  width: inherit;
+  height: inherit;
+  background-color: black;
+}
+.card {
+  width: 90%;
+  height: 250px;
+  box-sizing: border-box;;
+}
+.img__box{
+  width: auto;
+  height: 150px;
+}
+img {
+  width: auto;
+  height: inherit;
+  object-fit: cover;
+}
+.card h2,
+.card p {
+  color: #fff;
+  text-align: justify;
 }
 
 
