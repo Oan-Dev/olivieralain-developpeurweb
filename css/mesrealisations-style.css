@@ -1,0 +1,79 @@
+/* Mobile first layout */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+}
+
+/* le corps de l'index */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 2500px;
+  background-color: #1f2235;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* l'entête avec la navBar  */
+header {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background-color: #303030;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  height: inherit;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 8px 0;
+}
+
+/* le corps du Portfolio */
+.main__box {
+  height: 2000px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+/* Le footer de l'index */
+footer {
+  width: auto;
+  height: auto;
+  background-color: #303030;
+  margin-top: 360px;
+  color: #fff;
+}
+
+.container__down {
+  width: 90%;
+  height: inherit;
+  margin: 20px;
+}
+
+.list__footer {
+  width: auto;
+  margin: 20px 0 0 10px;
+}
+
+.list__footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
