@@ -165,6 +165,22 @@ des services et des réalisations */
 }
 
 /* Mes réalisations */
+
+
+
+.reservia {
+  background-image: url(../images/Projet-2_Reservia-2.png);
+  background-size: cover;
+}
+.ohmyfood {
+  background-image: url(../images/Projet-3_Ohmyfood_Accueil-3.png);
+  background-size: cover;
+}
+.chouette-agence {
+  background-image: url(../images/Projet-4_La_chouette_Agence_Le_Site-2.png);
+  background-size: cover;
+}
+
 .Projects-Card {
   width: 90%;
   height: 250px;
