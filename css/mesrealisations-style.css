@@ -53,14 +53,17 @@ nav ul li {
   box-sizing: border-box;
 }
 .titre {
-  width: 70%;
+  width: auto;
   /* height: 50px; */
   margin: auto;
-  background-color: black;
+  /* background-color: black; */
 }
 h1 {
   color: #fff;
-
+  text-align: center;
+}
+h1 span {
+  font-size: 80%;
 }
 .realisations {
   width: inherit;
@@ -71,23 +74,19 @@ h1 {
 .main__box .realisations section {
   width: inherit;
   height: inherit;
-  background-color: black;
-  height: inherit;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
 }
 .card {
   width: 80%;
   height: 320px;
   box-sizing: border-box;;
-  /* margin-bottom: 20px; */
   margin: 10px auto;
-  padding: 10px;
-  background-color: lightgray;
 }
 .img__box{
   width: auto;
   height: 150px;
+  border-radius: 20px 20px 0 0;
 }
 #reservia .card .img__box {
   background-image: url(../images/Projet-2_Reservia-2.png);
@@ -105,20 +104,25 @@ h1 {
 .text {
   width: 100%;
   height: 50%;
-  /* background-color: #303030; */
-  background-color: #000;
-  padding: 10px;
+  background-color: #303030;
+  /* background-color: #000; */
+  padding: 0 10px;
   box-sizing: border-box;
   overflow-y: scroll;
-  }
 
+  }
+/* .card h2 {
+  width: 50%;
+  margin: auto;
+  font-size: 1.15rem;
+} */
 
 .card h2,
 .card p {
   color: #fff;
   text-align: justify;
 }
-.card p {
+.card .text p {
   width: 100%;
   font-size: 0.9rem;
 }
