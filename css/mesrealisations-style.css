@@ -70,20 +70,37 @@ nav ul li {
   width: auto;
   height: 150px;
 }
-img {
-  width: auto;
-  height: inherit;
-  object-fit: cover;
+#reservia .card .img__box {
+  background-image: url(../images/Projet-2_Reservia-2.png);
+  background-size: cover;
 }
+#ohmyfood .card .img__box {
+  background-image: url(../images/Projet-3_Ohmyfood_Accueil-3.png);
+  background-size: cover;
+}
+#chouette-agence .card .img__box {
+  background-image: url(../images/Projet-4_La_chouette_Agence_Le_Site-2.png);
+  background-size: cover;
+}
+
+
+
+/* .text {
+  width: 100%;
+  height: 100%;
+  margin-top: -150px;
+} */
 .card h2,
 .card p {
-  color: #fff;
+  /* color: #fff; */
   text-align: justify;
+  background-color: #fff;
 }
 .card p {
   width: 100%;
-  height: 150px;
+  height: 100px;
   box-sizing: border-box;
+  font-size: 0.9rem;
 }
 
 
