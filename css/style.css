@@ -135,33 +135,44 @@ des services et des réalisations */
   flex-direction: column;
 }
 
-.Container__projects a,
+/* .Container__projects a,
 .container__services a {
   display: inline-block;
-}
+} */
 
 /* Mes Services */
 .services-card {
-  width: 90%;
-  height: 350px;
+  width: 80%;
+  height: 300px;
   margin: 15px auto;
+  padding: 10px;
+  box-sizing: border-box;
   border-radius: 15px;
   background-color: blueviolet;
 }
 
+
 .integration, .development {
   width: 100%;
-  height: inherit;
+  height: 80%;
   margin: auto;
   padding: 10px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
 .integration h3, .development h3 {
-  justify-content: center;
+  /* justify-content: center; */
   width: 50%;
   margin: auto;
+}
+.integration p, .development p {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: justify;
 }
 
 /* Mes réalisations */
@@ -182,9 +193,9 @@ des services et des réalisations */
 }
 
 .Projects-Card {
-  width: 90%;
+  width: 70%;
   height: 250px;
-  background-color: darkgreen;
+  background-color: #303030;
   border-radius: 15px;
   margin: 10px auto;
   display: flex;
