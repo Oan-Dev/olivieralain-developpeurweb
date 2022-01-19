@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #ffc576;
 }
 
 body {
@@ -14,14 +15,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* height: 2400px; */
   background-color: #1f2235;
   box-sizing: content-box;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* l'entête avec la navBar  */
@@ -92,7 +92,6 @@ nav ul li {
 
 .main-title h1 {
   font-size: 24px;
-  color: #fff;
   width: 70%;
   margin: auto;
   display: flex;
@@ -101,33 +100,37 @@ nav ul li {
   justify-content: center;
 }
 
+h1 span {
+  margin: auto;
+  padding: 8px;
+  color: #fff;
+}
 h1 span:first-child {
-  width: 90%;
-  margin: auto;
-  padding: 8px;
+  width: 80%;
 }
-
 h1 span:nth-child(2) {
-  width: 90%;
-  margin: auto;
-  padding: 8px;
+  width: 85%;
 }
-
 h1 span:last-child {
   width: 90%;
-  margin: auto;
-  padding: 8px;
 }
 
 /* les sections des présentations
 des services et des réalisations */
 .mes__services, .mes__projets {
   width: 100%;
-  /* height: 900px; */
-  margin: 100px 0 0 0;
+  /* margin: 100px 0 0 0; */
+  margin: 40px auto;
+  padding: 30px 0;
   background-color: #808080;
   box-sizing: border-box;
 }
+.mes__services h2, .mes__projets h2 {
+  width: 70%;
+  margin: auto;
+
+}
+
 
 .Container__projects,
 .container__services {
@@ -138,10 +141,6 @@ des services et des réalisations */
   justify-content: space-around;
 }
 
-/* .Container__projects a,
-.container__services a {
-  display: inline-block;
-} */
 
 /* Mes Services */
 .services-card {
@@ -151,7 +150,10 @@ des services et des réalisations */
   padding: 10px;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: blueviolet;
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 
@@ -163,12 +165,13 @@ des services et des réalisations */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .integration h3, .development h3 {
-  /* justify-content: center; */
-  width: 50%;
+  width: 60%;
   margin: auto;
+  color: #fff;
 }
 .integration p, .development p {
   width: 100%;
@@ -180,19 +183,23 @@ des services et des réalisations */
 
 /* Mes réalisations */
 
-
-
 .reservia {
   background-image: url(../images/Projet-2_Reservia-2.png);
-  background-size: cover;
 }
 .ohmyfood {
   background-image: url(../images/Projet-3_Ohmyfood_Accueil-3.png);
-  background-size: cover;
 }
 .chouette-agence {
   background-image: url(../images/Projet-4_La_chouette_Agence_Le_Site-2.png);
+}
+
+.reservia,
+.ohmyfood,
+.chouette-agence {
   background-size: cover;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 85%;
 }
 
 .Projects-Card {
@@ -205,19 +212,6 @@ des services et des réalisations */
   flex-direction: column;
 }
 
-.reservia, .ohmyfood, .chouette-agence {
-  width: 100%;
-  height: 85%;
-}
-
-.reservia img,
-.ohmyfood img,
-.chouette-agence img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 .title-projects {
   justify-content: center;
   margin: auto;
@@ -226,10 +220,11 @@ des services et des réalisations */
 /* le btn call to action vers le formulaire */
 .container__btn {
   width: 100%;
-  height: 100px;
+  height: 50px;
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+  background-color: #808080;
 }
 
 .btn__formulaire {
@@ -245,7 +240,6 @@ des services et des réalisations */
   width: 60%;
   height: 50%;
   margin: auto;
-  /* background-color: #808080; */
   justify-content: center;
   align-items: center;
   font-size: 1.15rem;
@@ -257,7 +251,7 @@ footer {
   width: auto;
   height: 200px;
   background-color: #303030;
-  margin-top: 90px;
+  margin-top: 70px;
   color: #fff;
 }
 
