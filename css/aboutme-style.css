@@ -14,8 +14,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 1500px;
   background-color: #1f2235;
+  box-sizing: border-box;
 }
 
 a {
@@ -49,35 +49,31 @@ nav ul li {
 /* le corps du style aboutme */
 
 .main__box {
-height: 1200px;
 width: 100%;
 margin-top: 20px;
 padding: 20px;
 box-sizing: border-box;
-
-
 }
 
 .main__box div:first-child {
-  width: 70%;
+  width: 55%;
   height: 40px;
   margin: auto;
   padding: 5px 5px 3px 15px;
-  /* font-size: .9rem; */
-  color: #fff;
   font-weight: bold;
-  background-color: darkgreen;
   box-sizing: border-box;
-  border-radius: 15px;
+}
+
+.main__box div:first-child h2{
+  color: #fff;
 }
 
 .main__box section {
     color: #fff;
     width: 90%;
     padding: 15px;
-    /* height: 250px; */
-    border-radius: 15px 15px 0 0;
-    background-color: black;
+    border-radius: 15px;
+    background-color: #303030;
     margin-bottom: 40px;
     margin-top: 20px;
     box-sizing: content-box;
@@ -95,7 +91,6 @@ footer {
   width: auto;
   height: auto;
   background-color: #303030;
-  margin-top: 150px;
   color: #fff;
 }
 
