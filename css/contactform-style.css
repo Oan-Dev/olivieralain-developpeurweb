@@ -60,8 +60,6 @@ box-sizing: border-box;
   height: 120px;
   color: #fff;
   padding: 10px;
-  margin-bottom: 80px;
-
 }
 .consigne p {
     width: 90%;
@@ -120,16 +118,21 @@ box-sizing: border-box;
 }
 /* le Bouton */
 .btn__box {
-  width: 70%;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
+  /* background-color: #808080; */
+  display: flex;
+  justify-content: center;
+
 }
 .btn__box button {
   font-size: 1.25rem;
+  /* width: auto;
+  margin: auto; */
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   color: #000;
-  /* background-color: #303030; */
 }
 
 
