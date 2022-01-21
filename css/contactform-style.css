@@ -109,11 +109,14 @@ box-sizing: border-box;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 10px;
+  color: #000;
 }
 .form-group select {
   cursor: pointer;
   width: 100%;
   margin: auto;
+  color: #000;
+
 }
 /* le Bouton */
 .btn__box {
@@ -125,6 +128,8 @@ box-sizing: border-box;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
+  color: #000;
+  /* background-color: #303030; */
 }
 
 
