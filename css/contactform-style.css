@@ -109,6 +109,7 @@ box-sizing: border-box;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 10px;
+  padding-left: 5px;
   color: #000;
 }
 .form-group select {
@@ -155,6 +156,7 @@ footer {
   width: 90%;
   height: inherit;
   margin: 20px;
+  padding-top: 10px;
 }
 
 .list__footer {

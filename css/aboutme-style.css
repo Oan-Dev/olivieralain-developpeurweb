@@ -127,6 +127,7 @@ footer {
   width: 90%;
   height: inherit;
   margin: 20px;
+  padding-top: 10px;
 }
 .list__footer {
   width: auto;
