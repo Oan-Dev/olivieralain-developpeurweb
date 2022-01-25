@@ -50,7 +50,8 @@ nav ul li {
 .main__box {
   /* height: 2000px; */
   width: 100%;
-  margin-top: 20px;
+  gap: 10%;
+  /* margin-top: 20px; */
   box-sizing: border-box;
 }
 
@@ -124,9 +125,10 @@ h1 span:last-child {
 des services et des réalisations */
 .mes__services, .mes__projets {
   width: 100%;
-  margin: 30px auto;
+  /* margin: 30px auto; */
   padding: 20px 0;
-  /* background-color: #808080; */
+  margin: auto;
+  gap: 1.5rem;
   box-sizing: content-box;
 }
 .mes__services h2, .mes__projets h2 {
@@ -136,21 +138,24 @@ des services et des réalisations */
 }
 
 
-.Container__projects,
+.container__projects,
 .container__services {
   width: 100%;
   height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 1.15rem;
+  padding: 10px 0;
+  /* background-color: #808080; */
 }
 
 
 /* Mes Services */
 .services-card {
-  width: 80%;
+  width: 70%;
   height: 350px;
-  margin: 15px auto;
+  margin: auto;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 15px;
@@ -173,7 +178,7 @@ des services et des réalisations */
 }
 
 .integration h3, .development h3 {
-  width: 70%;
+  width: 80%;
   margin: auto;
   color: #fff;
 }
@@ -184,6 +189,7 @@ des services et des réalisations */
   box-sizing: border-box;
   /* text-align: justify; */
   line-height: 125%;
+  font-size: .9rem;
 }
 
 /* Mes réalisations */
