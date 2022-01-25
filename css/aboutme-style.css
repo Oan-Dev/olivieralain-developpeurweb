@@ -56,7 +56,7 @@ box-sizing: border-box;
 }
 
 .main__box div:first-child {
-  width: 55%;
+  width: 70%;
   height: 40px;
   margin: auto;
   padding: 5px 5px 3px 15px;
@@ -70,12 +70,12 @@ box-sizing: border-box;
 
 .main__box section {
     color: #fff;
-    width: 90%;
+    width: 80%;
     padding: 15px;
     border-radius: 15px;
     background-color: #303030;
-    margin:  20px 0;
-    box-sizing: content-box;
+    margin:  20px auto;
+    box-sizing: border-box;
 }
 
 .main__box section p {
