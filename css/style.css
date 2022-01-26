@@ -300,19 +300,37 @@ footer {
     flex-direction: row;
     align-items: stretch;
   }
+
+  .mes__services h2, .mes__projets h2{
+      /* background-color: darkgray; */
+      width: 50%;
+      margin: auto;
+    }
+
   .mes__services{
     height: 920px;
-    /* justify-content: space-between; */
-
   }
-  .mes__services, .mes__projets {
+
+  /* .mes__services, .mes__projets {
   background-color: lightgray;
-  }
-  .mes__services h2, .mes__projets h2{
-  background-color: darkgray;
-  width: 50%;
-  margin: auto;
-  }
-}
+  } */
 
+
+
+
+  footer {
+    display: flex;
+  }
+  .container__down {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__down h4 {
+    margin: auto;
+  }
+  .list__footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
