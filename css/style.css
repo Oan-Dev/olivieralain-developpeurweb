@@ -61,6 +61,7 @@ nav ul li {
   width: 75%;
   margin: auto;
 }
+
 .welcome {
   width: 100%;
   height: 80px;
@@ -111,6 +112,7 @@ h1 span {
   padding: 8px;
   color: #fff;
 }
+
 /* h1 span:first-child {
   width: 80%;
 }
@@ -120,7 +122,6 @@ h1 span:nth-child(2) {
 h1 span:last-child {
   width: 90%;
 } */
-
 /* les sections des présentations
 des services et des réalisations */
 .mes__services, .mes__projets {
@@ -133,12 +134,11 @@ des services et des réalisations */
   display: flex;
   flex-direction: column;
 }
+
 .mes__services h2, .mes__projets h2 {
   width: 70%;
   margin: auto;
-
 }
-
 
 .container__projects,
 .container__services {
@@ -151,7 +151,6 @@ des services et des réalisations */
   padding: 10px 0;
   /* background-color: #808080; */
 }
-
 
 /* Mes Services */
 .services-card {
@@ -166,7 +165,6 @@ des services et des réalisations */
   flex-direction: column;
   justify-content: space-around;
 }
-
 
 .integration, .development {
   width: 100%;
@@ -184,6 +182,7 @@ des services et des réalisations */
   margin: auto;
   color: #fff;
 }
+
 .integration p, .development p {
   width: 100%;
   margin: auto;
@@ -195,13 +194,14 @@ des services et des réalisations */
 }
 
 /* Mes réalisations */
-
 .reservia {
   background-image: url(../images/Projet-2_Reservia-2.png);
 }
+
 .ohmyfood {
   background-image: url(../images/Projet-3_Ohmyfood_Accueil-3.png);
 }
+
 .chouette-agence {
   background-image: url(../images/Projet-4_La_chouette_Agence_Le_Site-2.png);
 }
@@ -285,14 +285,14 @@ footer {
 }
 
 /* le mode Responsive */
-
 /* Mode Tablette */
-@media screen and (min-width: 768px) and (max-width:1239px){
+@media screen and (min-width: 768px) and (max-width:1239px) {
   .main-container, .main__box {
     display: flex;
     flex-direction: column;
   }
-  .block__projets{
+
+  .block__projets {
     gap: 20px;
     width: auto;
     height: inherit;
@@ -301,34 +301,83 @@ footer {
     align-items: stretch;
   }
 
-  .mes__services h2, .mes__projets h2{
-      /* background-color: darkgray; */
-      width: 50%;
-      margin: auto;
-    }
+  .mes__services h2, .mes__projets h2 {
+    /* background-color: darkgray; */
+    width: 50%;
+    margin: auto;
+  }
 
-  .mes__services{
+  .mes__services {
     height: 920px;
   }
 
   /* .mes__services, .mes__projets {
   background-color: lightgray;
   } */
-
-
-
-
   footer {
     display: flex;
   }
+
   .container__down {
     display: flex;
     flex-direction: column;
   }
+
   .container__down h4 {
     margin: auto;
   }
-  .list__footer ul{
+
+  .list__footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/* Mode desktop*/
+@media screen and (min-width: 1240px) {
+  .main-container, .main__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block__projets {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mes__services h2, .mes__projets h2 {
+    width: auto;
+    margin: auto;
+  }
+
+  .container__services, .container__projects {
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    margin: auto;
+  }
+
+  .mes__services, .mes__projets {
+    display: flex;
+    gap: 20px;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .container__down {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__down h4 {
+    margin: auto;
+  }
+
+  .list__footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
