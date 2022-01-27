@@ -175,6 +175,10 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .consigne{
+    width: 50%;
+    margin: auto;
+  }
   .contact__box form {
     width: auto;
     max-width: 1178px;
@@ -211,12 +215,31 @@ footer {
 
 /* Mode desktop*/
 @media screen and (min-width: 1240px) {
+  html, body {
+    display: block;
+    /* height: 100vh; */
+    box-sizing: border-box;
+  }
+
   .main-container, .main__box {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  .main-container {
+    height: 100vh;
+  }
+  .main__box {
+    height: 50vh;
+  }
+  .consigne{
+    width: 50%;
+    margin: auto;
   }
   .contact__box form {
     width: auto;
+    box-sizing: content-box;
     max-width: 1178px;
     display: flex;
     flex-wrap: wrap;
@@ -229,14 +252,22 @@ footer {
   }
 
   footer {
-    display: flex;
-    /* height: 400px; */
+    /* display: flex; */
+    /* height: 80px; */
+    height: 50px;
+    width: 100%;
+    margin-top: 200px;
+
   }
 
   .container__down {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    width: 50%;
+    margin: 0 auto;
+    height: 20vh;
+    box-sizing: border-box;
+
   }
 
   .container__down h4 {
