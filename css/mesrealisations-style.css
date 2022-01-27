@@ -170,6 +170,7 @@ h1 span {
   height: 50px;
   display: flex;
   justify-content: center;
+  margin: 20px auto;
   /* padding-top: 15px; */
   /* background-color: #808080; */
 }
@@ -197,7 +198,7 @@ h1 span {
 /* Le footer de l'index */
 footer {
   width: auto;
-  height: 150px;
+  height: 220px;
   background-color: #303030;
 
   /* margin-top: 450px; */
@@ -219,4 +220,109 @@ footer {
 .list__footer ul li {
   list-style: none;
   margin-bottom: 10px;
+}
+
+/* Le Responsive */
+
+
+/* Mode Tablette */
+
+@media screen and (min-width: 768px) and (max-width: 1239px) {
+  .main-container, .main__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .realisations {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  #reservia, #ohmyfood, #chouette-agence {
+    display: flex;
+    width: 95%;
+    height: 90%;
+    gap: 20px;
+  }
+  .text {
+    box-sizing: border-box;
+    overflow-y: scroll;
+
+  }
+.container__btn {
+  margin: 25px auto;
+}
+footer {
+  display: flex;
+}
+
+.container__down {
+  display: flex;
+  flex-direction: column;
+  margin:  0 auto;
+  height: 70%;
+  /* padding-top: 10px; */
+}
+
+.container__down h4 {
+  margin: auto;
+}
+
+.list__footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+}
+
+/* Mode Desktop */
+@media screen and (min-width: 1240px) {
+  .main-container, .main__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__box{
+    max-width: 1600px;
+    margin: auto;
+  }
+  .realisations {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  #reservia, #ohmyfood, #chouette-agence {
+    display: flex;
+    width: 95%;
+    height: 90%;
+    gap: 20px;
+  }
+  .text {
+    box-sizing: border-box;
+    overflow-y: scroll;
+
+  }
+.container__btn {
+  margin: 25px auto;
+}
+footer {
+  display: flex;
+}
+
+.container__down {
+  display: flex;
+  flex-direction: column;
+  margin:  0 auto;
+  height: 70%;
+  /* padding-top: 10px; */
+}
+
+.container__down h4 {
+  margin: auto;
+}
+
+.list__footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 }
