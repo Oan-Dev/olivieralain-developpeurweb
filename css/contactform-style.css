@@ -192,14 +192,21 @@ footer {
   width: 280px;
 }
 
-
   footer {
-    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-top: 200px;
+
   }
 
   .container__down {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    height: 20vh;
+    box-sizing: border-box;
+
   }
 
   .container__down h4 {
@@ -252,8 +259,6 @@ footer {
   }
 
   footer {
-    /* display: flex; */
-    /* height: 80px; */
     height: 50px;
     width: 100%;
     margin-top: 200px;
