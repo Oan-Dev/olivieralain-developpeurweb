@@ -344,11 +344,11 @@ footer {
     display: block;
     /* height: 100vh; */
     box-sizing: border-box;
-    max-width: 1600px;
   }
   .main-container, .main__box {
     display: flex;
     flex-direction: column;
+    /* max-width: 1600px; */
   }
 
   .block__projets {
