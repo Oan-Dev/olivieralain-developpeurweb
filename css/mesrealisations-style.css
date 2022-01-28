@@ -8,6 +8,8 @@
 body {
   width: 100%;
   display: flex;
+  background-color: #1f2235;
+
 }
 
 /* le corps de l'index */
@@ -258,7 +260,7 @@ footer {
     display: flex;
     justify-content: center;
   }
-  
+
 .container__btn {
   margin: 25px auto;
 }

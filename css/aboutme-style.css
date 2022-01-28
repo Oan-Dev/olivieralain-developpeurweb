@@ -7,6 +7,8 @@
 body {
   width: 100%;
   display: flex;
+  background-color: #1f2235;
+
 
 }
 /* le corps de l'index */
@@ -122,13 +124,14 @@ footer {
   height: auto;
   background-color: #303030;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .container__down {
   width: 90%;
   height: 100%;
-  margin: 20px;
-  padding-top: 10px;
+  padding: 10px 0 0 20px;
+  box-sizing: border-box;
 }
 .list__footer {
   width: auto;
@@ -168,16 +171,19 @@ footer {
 }
 footer {
   display: flex;
-  height: 150px;
+  height: 200px;
   align-items: flex-end;
-  margin-top: 80px;
+  /* margin-top: 50px; */
+  box-sizing: border-box;
+
 }
 
 .container__down {
   display: flex;
   flex-direction: column;
-  height: 50%;
-  margin: auto;
+  height: inherit;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .container__down h4 {
@@ -195,14 +201,22 @@ footer {
 @media screen and (min-width: 1240px) {
   html, body {
     display: block;
-    height: 100vh;
+    height: 120vh;
     box-sizing: border-box;
+    max-width: 1600px;
+
   }
   .main-container,.main__box {
     display: flex;
     flex-direction: column;
+    /* height: 150vh; */
     height: 100%;
+    max-width: 1600px;
     box-sizing: content-box;
+  }
+  .main__box {
+  /* margin-top: 20px; */
+  padding: 0;
   }
   /* .main__box {
     height: 50%;
@@ -210,7 +224,7 @@ footer {
   } */
 
  .main__box div:first-child {
-   width: 50%;
+   width: 45%;
  }
  .main__box div:first-child h2{
    display: flex;
@@ -232,18 +246,21 @@ footer {
 }
 footer {
   display: flex;
-  height: 250px;
   align-items: flex-end;
-  margin-top: 50px;
   box-sizing: border-box;
+  height: 150px;
+  width: 100%;
+  /* margin-top: 50px; */
 
 }
 
 .container__down {
   display: flex;
   flex-direction: column;
-  height: 50%;
-  margin: auto;
+  height: inherit;
+  box-sizing: border-box;
+  /* width: 50%; */
+  margin: 0 auto;
 }
 
 .container__down h4 {
