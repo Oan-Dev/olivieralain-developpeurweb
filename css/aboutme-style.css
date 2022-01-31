@@ -58,7 +58,8 @@ padding: 20px;
 box-sizing: border-box;
 }
 
-.main__box div:first-child {
+/* .main__box div:first-child */
+.titre__box {
   width: 70%;
   height: 40px;
   margin: auto;
@@ -71,8 +72,8 @@ box-sizing: border-box;
   color: #fff;
 }
 
-.main__box section {
-    color: #fff;
+.main__box .story__box {
+    /* color: #fff; */
     width: 300px;
     padding: 15px;
     border-radius: 15px;
@@ -81,7 +82,7 @@ box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.main__box section p {
+.main__box .story__box p {
   margin: auto;
   width: 90%;
   text-align: justify;
@@ -152,10 +153,11 @@ footer {
     flex-direction: column;
   }
 
- .main__box div:first-child {
+ /* .main__box div:first-child  */
+ .titre__box{
    width: 60%;
  }
- .main__box div:first-child h2{
+ .main__box .titre__box h2{
    display: flex;
    width: 50%;
    margin: auto;
