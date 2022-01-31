@@ -1,0 +1,17 @@
+/* .integration:hover,
+.integration:focus,
+.development:hover,
+.development:focus {
+  height: 100%;
+}
+
+.integration p:hover,
+.integration p:focus,
+.development p:hover,
+.development p:focus {
+  height: 100%;
+} */
+.services-card:hover
+ .services-card:focus{
+  height: 350px;
+}
