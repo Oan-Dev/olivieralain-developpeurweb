@@ -224,10 +224,10 @@ footer {
     margin: auto;
   } */
 
- .main__box div:first-child {
+ .main__box .titre__box {
    width: 45%;
  }
- .main__box div:first-child h2{
+ .main__box .titre__box h2{
    display: flex;
    width: 50%;
    margin: auto;
