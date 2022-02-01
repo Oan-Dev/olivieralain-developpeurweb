@@ -124,16 +124,12 @@ box-sizing: border-box;
 /* le Bouton */
 .btn__box {
   width: 100%;
-  /* margin: auto; */
-  /* background-color: #808080; */
   display: flex;
   justify-content: center;
 
 }
 .btn__box button {
   font-size: 1.25rem;
-  /* width: auto;
-  margin: auto; */
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -187,7 +183,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* gap : 5px; */
   }
 
 .form-group {
@@ -226,7 +221,6 @@ footer {
 @media screen and (min-width: 1240px) {
   html, body {
     display: block;
-    /* height: 100vh; */
     box-sizing: border-box;
   }
 
@@ -253,7 +247,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* gap : 5px; */
   }
 
   .form-group {

@@ -19,22 +19,11 @@ nav ul li:focus  {
 }
 /* Animation sur les card des story */
 
-/* .story__box p:hover,
-.story__box p:focus,
-.story__box p strong:hover,
-.story__box p strong:focus{
-  color: #fff;
-} */
 .story__box :hover,
 .story__box :focus {
   color: #fff;
   transform: scale(1.05);
 }
-/* .story__box p:first-child > :hover,
-.story__box p:first-child > :focus {
-  color: #fff;
-  transform: scale(1.05);
-} */
 
 /* Animation hover sur le btn */
 .container__btn:hover,

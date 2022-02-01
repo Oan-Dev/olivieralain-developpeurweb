@@ -51,20 +51,15 @@ nav ul li {
 
 /* le corps du Portfolio */
 .main__box {
-  /* height: 80%; */
   width: 100%;
   margin-top: 20px;
   box-sizing: border-box;
-  /* gap: 20px; */
 }
 .titre {
   width: auto;
-  /* height: 50px; */
   margin: auto;
-  /* background-color: black; */
 }
 h1 {
-  /* color: #fff; */
   text-align: center;
 }
 h1 span {
@@ -79,27 +74,17 @@ h1 span {
 }
 .main__box .realisations section {
   width: inherit;
-  /* height: inherit; */
   padding: 10px;
   box-sizing: border-box;
   margin: auto;
-  /* background-color: Lightgray; */
 
 }
-/* #reservia {
 
-} */
 .card {
   width: 80%;
   height: 330px;
   box-sizing: border-box;;
   margin: 25px auto;
-  /* margin: auto;
-  gap: 125%; */
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 .img__box{
   width: auto;
@@ -151,10 +136,6 @@ h1 span {
 #chouette-agence .card .titre__card h2 span {
   color: #fff;
 }
-/* .titre__card h2 span {
-  color: #fff;
-  font-size: 1.15rem;
-  } */
 
 .card p {
   text-align: justify;
@@ -173,8 +154,6 @@ h1 span {
   display: flex;
   justify-content: center;
   margin: 20px auto;
-  /* padding-top: 15px; */
-  /* background-color: #808080; */
 }
 
 .btn__formulaire {
@@ -202,9 +181,6 @@ footer {
   width: auto;
   height: 220px;
   background-color: #303030;
-
-  /* margin-top: 450px; */
-  /* color: #fff; */
 }
 
 .container__down {
@@ -273,7 +249,6 @@ footer {
   flex-direction: column;
   margin:  0 auto;
   height: 70%;
-  /* padding-top: 10px; */
 }
 
 .container__down h4 {
@@ -333,7 +308,6 @@ footer {
   flex-direction: column;
   margin:  0 auto;
   height: 70%;
-  /* padding-top: 10px; */
 }
 
 .container__down h4 {

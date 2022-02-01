@@ -58,7 +58,6 @@ padding: 20px;
 box-sizing: border-box;
 }
 
-/* .main__box div:first-child */
 .titre__box {
   width: 70%;
   height: 40px;
@@ -73,7 +72,6 @@ box-sizing: border-box;
 }
 
 .main__box .story__box {
-    /* color: #fff; */
     width: 300px;
     padding: 15px;
     border-radius: 15px;
@@ -95,8 +93,6 @@ box-sizing: border-box;
   display: flex;
   justify-content: center;
   margin-bottom: 35px;
-  /* padding-top: 15px; */
-  /* background-color: #808080; */
 }
 
 .btn__formulaire {
@@ -153,7 +149,6 @@ footer {
     flex-direction: column;
   }
 
- /* .main__box div:first-child  */
  .titre__box{
    width: 60%;
  }
@@ -175,7 +170,6 @@ footer {
   display: flex;
   height: 200px;
   align-items: flex-end;
-  /* margin-top: 50px; */
   box-sizing: border-box;
 
 }
@@ -210,19 +204,12 @@ footer {
   .main-container,.main__box {
     display: flex;
     flex-direction: column;
-    /* height: 150vh; */
     height: 100%;
-    /* max-width: 1600px; */
     box-sizing: content-box;
   }
   .main__box {
-  /* margin-top: 20px; */
   padding: 0;
   }
-  /* .main__box {
-    height: 50%;
-    margin: auto;
-  } */
 
  .main__box .titre__box {
    width: 45%;
@@ -251,7 +238,6 @@ footer {
   box-sizing: border-box;
   height: 150px;
   width: 100%;
-  /* margin-top: 50px; */
 
 }
 
@@ -260,7 +246,6 @@ footer {
   flex-direction: column;
   height: inherit;
   box-sizing: border-box;
-  /* width: 50%; */
   margin: 0 auto;
 }
 

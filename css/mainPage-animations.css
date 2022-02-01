@@ -19,12 +19,6 @@ nav ul li:focus  {
 }
 
 /* Animation hover sur les card de services */
-/* .services-card:hover,
-.services-card:focus,
-.services-card:hover,
-.services-card:focus {
-  height: 350px;
-} */
 .services-card .integration p:hover,
 .services-card .integration p:focus,
 .services-card .development p:hover,

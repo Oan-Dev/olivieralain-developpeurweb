@@ -17,6 +17,8 @@ nav ul li:focus  {
 .list__footer ul li:focus  {
   transform: scale(1.1);
 }
+
+/* Les Animations sur le formulaire */
 input:focus {
   transform: scale(1.07);
 }
