@@ -1,9 +1,29 @@
-/* Animation hover sur les card de services */
-/* .services-card .integration:hover,
-.services-card .integration:focus,
-.services-card .development:hover,
-.services-card .development:focus {
+/* Animation hover sur les liens de la navBar*/
+nav ul li a:hover,
+nav ul li a:focus  {
+  color: #ffc576;
+}
+nav ul li:hover,
+nav ul li:focus  {
   transform: scale(1.1);
+}
+
+/* Animation hover sur les liens du footer*/
+.list__footer ul li a:hover,
+.list__footer ul li a:focus  {
+  color: #ffc576;
+}
+.list__footer ul li:hover,
+.list__footer ul li:focus  {
+  transform: scale(1.1);
+}
+
+/* Animation hover sur les card de services */
+/* .services-card:hover,
+.services-card:focus,
+.services-card:hover,
+.services-card:focus {
+  height: 350px;
 } */
 .services-card .integration p:hover,
 .services-card .integration p:focus,
