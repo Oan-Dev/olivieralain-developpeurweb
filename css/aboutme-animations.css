@@ -1,0 +1,43 @@
+/* Animation hover sur les liens de la navBar*/
+nav ul li a:hover,
+nav ul li a:focus  {
+  color: #ffc576;
+}
+nav ul li:hover,
+nav ul li:focus  {
+  transform: scale(1.1);
+}
+
+/* Animation hover sur les liens du footer*/
+.list__footer ul li a:hover,
+.list__footer ul li a:focus  {
+  color: #ffc576;
+}
+.list__footer ul li:hover,
+.list__footer ul li:focus  {
+  transform: scale(1.1);
+}
+/* Animation sur les card des story */
+
+/* .story__box p:hover,
+.story__box p:focus,
+.story__box p strong:hover,
+.story__box p strong:focus{
+  color: #fff;
+} */
+.story__box :hover,
+.story__box :focus {
+  color: #fff;
+  transform: scale(1.05);
+}
+/* .story__box p:first-child > :hover,
+.story__box p:first-child > :focus {
+  color: #fff;
+  transform: scale(1.05);
+} */
+
+/* Animation hover sur le btn */
+.container__btn:hover,
+.container__btn:focus {
+  transform: scale(1.1);
+}
