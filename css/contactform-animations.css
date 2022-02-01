@@ -1,0 +1,19 @@
+/* Animation hover sur les liens de la navBar*/
+nav ul li a:hover,
+nav ul li a:focus  {
+  color: #ffc576;
+}
+nav ul li:hover,
+nav ul li:focus  {
+  transform: scale(1.1);
+}
+
+/* Animation hover sur les liens du footer*/
+.list__footer ul li a:hover,
+.list__footer ul li a:focus  {
+  color: #ffc576;
+}
+.list__footer ul li:hover,
+.list__footer ul li:focus  {
+  transform: scale(1.1);
+}
