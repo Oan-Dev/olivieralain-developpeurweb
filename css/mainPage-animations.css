@@ -1,17 +1,25 @@
-/* .integration:hover,
-.integration:focus,
-.development:hover,
-.development:focus {
-  height: 100%;
+/* Animation hover sur les card de services */
+/* .services-card .integration:hover,
+.services-card .integration:focus,
+.services-card .development:hover,
+.services-card .development:focus {
+  transform: scale(1.1);
+} */
+.services-card .integration p:hover,
+.services-card .integration p:focus,
+.services-card .development p:hover,
+.services-card .development p:focus {
+  color: #fff;
 }
 
-.integration p:hover,
-.integration p:focus,
-.development p:hover,
-.development p:focus {
-  height: 100%;
-} */
-.services-card:hover
- .services-card:focus{
-  height: 350px;
+/* Animation hover sur les card de projets */
+.Projects-Card:hover,
+.Projects-Card:focus {
+  transform: scale(1.1);
+}
+
+/* Animation hover sur le btn */
+.container__btn:hover,
+.container__btn:focus {
+  transform: scale(1.1);
 }
