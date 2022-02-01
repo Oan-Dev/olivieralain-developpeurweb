@@ -17,3 +17,14 @@ nav ul li:focus  {
 .list__footer ul li:focus  {
   transform: scale(1.1);
 }
+input:focus {
+  transform: scale(1.07);
+}
+select:focus {
+  transform: scale(1.07);
+}
+.btn__box button:hover,
+.btn__box button:focus {
+  transform: scale(1.1);
+
+}

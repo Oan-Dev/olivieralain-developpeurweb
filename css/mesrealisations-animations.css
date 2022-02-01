@@ -22,3 +22,11 @@ nav ul li:focus  {
 .container__btn:focus {
   transform: scale(1.1);
 }
+/* Animation hover sur les card des projets*/
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover > .text p {
+  color: #fff;
+}
