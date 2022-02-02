@@ -24,7 +24,9 @@ nav ul li:focus  {
   color: #fff;
   transform: scale(1.05);
 }
-
+.story__box :hover > strong {
+  color: #fff !important;
+}
 /* Animation hover sur le btn */
 .container__btn:hover,
 .container__btn:focus {
