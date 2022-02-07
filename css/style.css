@@ -342,6 +342,10 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  /* .main__box {
+    display: flex;
+    flex-direction: row;
+  } */
 
   .block__projets {
     gap: 20px;
