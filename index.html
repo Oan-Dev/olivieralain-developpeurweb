@@ -72,7 +72,44 @@
             </a>
           </div>
         </div>
+        <div class="consigne">
+          <p>
+            Pour me contacter, merci de bien vouloir remplir ce formulaire et me l'envoyer afin que je puisse
+            vous joindre pour convenir d'un rendez-vous.
+          </p>
+        </div>
+        <div class="contact__box">
 
+          <form action="POST" method="POST">
+            <div class="form-group">
+              <label for="inputFirstName">Prénom</label>
+              <input type="text" id="inputFirstName" placeholder="Jacques" required>
+            </div>
+            <div class="form-group">
+              <label for="inputLastName">Nom</label>
+              <input type="text" id="inputLastName" placeholder="Martin" required>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail4">E-mail</label>
+              <input type="email" id="inputEmail4" placeholder="chefdeprojets@gmail.com" required>
+            </div>
+            <div class="form-group">
+              <label for="inputPhone">Téléphone</label>
+              <input type="tel" id="inputPhone" placeholder="06 00 00 00 00" required>
+            </div>
+            <div class="form-group">
+              <label for="inputCity">Ville</label>
+              <input type="text" id="inputCity" placeholder="Paris">
+            </div>
+            <div class="form-group">
+              <label for="story">Racontez-moi votre projet</label>
+              <textarea id="story" name="story" rows="5" cols="33" placeholder="Mon projet est :"></textarea>
+            </div>
+            <div class="btn__box">
+              <button type="submit">Envoyez</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
