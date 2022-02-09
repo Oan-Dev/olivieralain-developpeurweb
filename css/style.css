@@ -3,9 +3,36 @@
   margin: 0;
   padding: 0;
   color: #ffc576;
+}
+body {
   background-color: #1f2235;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* l'entête avec la navBar  */
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #303030;
+  margin-bottom: 20px;
+}
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  height: inherit;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 8px 0;
+}
 
 /* Mes réalisations */
 .reservia {
@@ -26,5 +53,58 @@
   background-size: cover;
   border-radius: 20px 20px 0 0;
   width: 100%;
-  height: 85%;
+  height: 250px;
+}
+
+.card {
+  width:  300px;
+  height: 300px;
+  margin: 20px auto;
+  /* border: 5px solid black; */
+  border-radius: 0 0 20px 20px;
+}
+
+.OC__projects {
+  width: 80%;
+  margin: 0 auto;
+}
+/* .OC__projects a {
+  gap: 20px;
+} */
+
+.project__title {
+  font-size: 1.15rem;
+  /* background-color: #303030; */
+  display: flex;
+}
+.project__title h3 {
+  /* width: 50%; */
+  margin: 10px auto;
+  justify-content: center;
+  color: #fff;
+}
+
+/* le footer de l'index */
+footer {
+  width: auto;
+  height: 200px;
+  background-color: #303030;
+}
+
+.container__down {
+  width: 90%;
+  height: 80%;
+  /* margin: auto; */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.list__footer {
+  width: auto;
+  margin: 20px 0 0 10px;
+}
+
+.list__footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
 }
