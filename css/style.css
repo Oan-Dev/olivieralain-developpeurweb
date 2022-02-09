@@ -60,20 +60,21 @@ nav ul li {
   display: flex;
   justify-content: center;
 }
+
 .welcome {
   margin-bottom: 20px;
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: darkgreen; */
 }
 .welcome span {
   width: 50%;
   margin: auto;
 }
-.welcome span:first-child {
-  width: 60%;
+
+.welcome span:last-child {
+  width: 37%;
   margin: auto;
 }
 
@@ -127,6 +128,11 @@ h1 span {
 /* .OC__projects a {
   gap: 20px;
 } */
+.projects__title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .project__title {
   font-size: 1.15rem;
@@ -171,6 +177,22 @@ input, button, textarea {
 }
 label {
   margin-right: 10px;
+}
+/* La partie d'informaion sur mes langages */
+.techno {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.techno__title {
+  width: 50%;
+  margin: auto;
+}
+.language__box {
+  width: 300px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* le footer de l'index */
