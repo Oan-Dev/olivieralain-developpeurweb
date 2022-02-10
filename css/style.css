@@ -237,7 +237,7 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1239px) {
 
   nav ul {
-    width: 500px;
+    min-width: 500px;
     height: 100px;
     display: flex;
     flex-direction: row;
