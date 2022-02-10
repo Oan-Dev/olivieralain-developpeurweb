@@ -55,7 +55,6 @@ nav ul li {
   display: flex;
   flex-direction: column;
   margin: 20px auto;
-  /* background-color: darkgray; */
 }
 .welcome, .main__title {
   display: flex;
@@ -69,23 +68,23 @@ nav ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: darkgreen; */
 }
 .welcome__block{
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-
-
   margin: auto;
+  background-color: darkgray;
 }
-.welcome .welcome__block div {
-  width: 60%;
+.welcome .welcome__block div:first-child {
+  width: 70%;
   margin: auto;
+  background-color: darkgreen;
 }
 .welcome .welcome__block div:last-child {
-  width: 45%;
+  width: 55%;
   margin: auto;
+  background-color: darkgreen;
 }
 
 
