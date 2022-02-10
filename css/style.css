@@ -75,17 +75,17 @@ nav ul li {
   display: flex;
   flex-direction: column;
   margin: auto;
-  background-color: darkgray;
+  /* background-color: darkgray; */
 }
 .welcome .welcome__block div:first-child {
   width: 70%;
   margin: auto;
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
 }
 .welcome .welcome__block div:last-child {
   width: 55%;
   margin: auto;
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
 }
 
 
@@ -229,4 +229,39 @@ footer {
 .list__footer ul li {
   list-style: none;
   margin-bottom: 10px;
+}
+
+/* Le Responsive */
+
+/* Mode Tablette */
+@media screen and (min-width: 768px) and (max-width: 1239px) {
+
+  nav ul {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: darkgreen; */
+  }
+  .welcome__block{
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: darkgray;
+  }
+  .welcome .welcome__block div:first-child {
+    width: 70%;
+    margin: auto;
+    background-color: darkgreen;
+  }
+  .welcome .welcome__block div:last-child {
+    width: 55%;
+    margin: auto;
+    background-color: darkgreen;
+  }
+
+
 }
