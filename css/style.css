@@ -71,6 +71,7 @@ nav ul li {
 }
 .welcome__block{
   width: 80%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   margin: auto;
