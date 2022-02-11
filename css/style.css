@@ -233,8 +233,10 @@ footer {
       /* background-color: lightgray; */
     }
     .container__down h4 {
-      width: 22%;
+      width: 50%;
       margin: 20px auto;
+      display: flex;
+      justify-content: center;
       /* background-color: darkgray; */
     }
     .list__footer {
@@ -275,13 +277,15 @@ footer {
       width:100%;
     }
     .container__down{
-      width: 80%;
+      max-width: 1500px;
       margin: 20px auto;
       /* background-color: lightgray; */
     }
     .container__down h4 {
-      width: 22%;
+      width: 50%;
       margin: 20px auto;
+      display: flex;
+      justify-content: center;
       /* background-color: darkgray; */
     }
     .list__footer {
