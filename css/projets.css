@@ -227,35 +227,50 @@ footer {
   /* le container main */
   .main {
   display: flex;
-}
-.story__container {
-  width: auto;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: darkgreen;
   gap: 20px;
-
 }
-
   .reservia{
     display: flex;
     flex-direction: row;
-
+    justify-content: space-evenly;
+    background-color: darkgreen;
+  }
+  .maquette {
+    width: auto;
+    /* margin: 10px auto; */
+  }
+  .maquette img {
+    width: auto;
+    height: 760px;
+    margin: auto;
   }
   .description__title {
     background-color: darkgrey;
+    width: 60%;
+    margin: auto;
     /* display: flex; */
   }
   .description__title h2 {
-    width: 35%;
+    width: 80%;
     margin: auto;
+    font-size: 1.5rem;
   }
   .description{
     display: flex;
+    flex-direction: column;
     /* flex-wrap: wrap; */
     gap: 20px;
+    margin: 20px auto;
+  }
+  .story__container {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: lightgreen;
+    gap: 20px;
+
   }
   .story {
     width: auto;
