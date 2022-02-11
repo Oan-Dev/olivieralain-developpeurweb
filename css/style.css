@@ -269,6 +269,8 @@ footer {
     /* background-color: darkgreen; */
   }
   .OC__projects{
+    max-width: 1500px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
