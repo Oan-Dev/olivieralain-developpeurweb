@@ -92,7 +92,26 @@ nav ul li {
   border-radius: 20px;
   margin: 20px auto;
 }
-
+/* le bouton vers le formulaire */
+.btn__container{
+  width: auto;
+  margin: auto;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #8e6440;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn a {
+  /* width: 50%;
+  margin: auto; */
+  color: #fff;
+}
 
 /* le footer de l'index */
 footer {
