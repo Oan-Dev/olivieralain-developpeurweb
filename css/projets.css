@@ -64,7 +64,7 @@ nav ul li {
 /* l'image de la maquette */
 
 .maquette {
-  width: 85%;
+  width: 300px;
   margin: 10px auto;
 
 }
@@ -86,7 +86,7 @@ nav ul li {
 }
 .description .card {
   /* width: auto; */
-  width: 80%;
+  width: 300px;
   height: 300px;
   background-color: #303030;
   border-radius: 20px;
@@ -142,7 +142,7 @@ footer {
 
 /* Mode Tablette */
 @media screen and (min-width: 768px) and (max-width: 1239px) {
-
+  /* le header */
   nav ul {
     min-width: 500px;
     height: 100px;
@@ -151,6 +151,34 @@ footer {
     justify-content: space-around;
     /* background-color: darkgreen; */
   }
+    /* le container main */
+    .main {
+    display: flex;
+  }
+  .story {
+    width: auto;
+    margin: auto;
+    display: flex;
+  }
+  /* .description__title {
+    background-color: darkgrey;
+  } */
+  .description__title h2 {
+    width: 35%;
+    margin: auto;
+  }
+    /* .reservia{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .description{
+      display: flex;
+      flex-wrap: wrap;
+    } */
+
+
+  /* le footer */
     footer {
       width:100%;
     }
@@ -183,6 +211,7 @@ footer {
 }
 /* Mode desktop */
 @media screen and (min-width: 1240px) {
+  /* le header */
   nav {
     max-width: 1500px;
     margin: auto;
@@ -195,6 +224,47 @@ footer {
     justify-content: space-around;
     /* background-color: darkgreen; */
   }
+  /* le container main */
+  .main {
+  display: flex;
+}
+.story__container {
+  width: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: darkgreen;
+  gap: 20px;
+
+}
+
+  .reservia{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .description__title {
+    background-color: darkgrey;
+    /* display: flex; */
+  }
+  .description__title h2 {
+    width: 35%;
+    margin: auto;
+  }
+  .description{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+  }
+  .story {
+    width: auto;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+  }
+
+/* le footer */
     footer {
       width:100%;
     }
