@@ -95,7 +95,7 @@ nav ul li {
 /* le bouton vers le formulaire */
 .btn__container{
   width: auto;
-  margin: auto;
+  margin: 20px auto;
 }
 .btn {
   width: 200px;
@@ -227,13 +227,13 @@ footer {
   /* le container main */
   .main {
   display: flex;
-  gap: 20px;
+  gap: 10%;
 }
   .reservia{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     padding: 20px;
     box-sizing: border-box;
   }
@@ -247,13 +247,14 @@ footer {
     margin: auto;
   }
   .description__title {
-    background-color: darkgrey;
-    width: 60%;
+    /* background-color: darkgrey; */
+    width: 80%;
     margin: auto;
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
   }
   .description__title h2 {
-    width: 80%;
+    width: 70%;
     margin: auto;
     font-size: 1.5rem;
   }
@@ -261,7 +262,7 @@ footer {
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-    gap: 20px;
+    gap: 10%;
     margin: 20px 0;
 
   }
@@ -271,15 +272,15 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: lightgreen;
-    gap: 20px;
+    /* background-color: lightgreen; */
+    gap: 10%;
 
   }
   .story {
     width: auto;
     margin: auto;
     display: flex;
-    gap: 20px;
+    gap: 10%;
   }
 
 /* le footer */
