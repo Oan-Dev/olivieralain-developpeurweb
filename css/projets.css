@@ -66,12 +66,16 @@ nav ul li {
 .maquette {
   width: 300px;
   margin: 10px auto;
-
 }
 .maquette img {
   width: auto;
   height: 400px;
   margin: auto;
+}
+.ohmyfood-img{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
 }
 /* la description */
 .description {
@@ -176,7 +180,9 @@ footer {
       display: flex;
       flex-wrap: wrap;
     } */
-
+    .ohmyfood-img{
+      gap: 20%;
+    }
 
   /* le footer */
     footer {
@@ -229,7 +235,7 @@ footer {
   display: flex;
   gap: 10%;
 }
-  .reservia{
+  .reservia, .chouette, .ohmyfood{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -241,13 +247,17 @@ footer {
     width: auto;
     /* margin: 10px auto; */
   }
+
   .maquette img {
     width: auto;
     height: 760px;
     margin: auto;
   }
+  .ohmyfood-img{
+    gap: 30%;
+  }
   .description__title {
-    /* background-color: darkgrey; */
+    background-color: darkgrey;
     width: 80%;
     margin: auto;
     display: flex;
