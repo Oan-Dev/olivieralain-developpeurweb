@@ -48,6 +48,7 @@ nav ul li {
   flex-direction: column;
   width: 95%;
   margin: 20px auto;
+  gap: 20%;
 }
 /* le titre principal */
 .main__title{
@@ -83,7 +84,6 @@ nav ul li {
 .description {
   width: 100%;
   margin: auto;
-  /* gap: 10px; */
 }
 .description__title h2 {
   width: 100%;
@@ -120,8 +120,6 @@ justify-content: center;
   align-items: center;
 }
 .btn a {
-  /* width: 50%;
-  margin: auto; */
   color: #fff;
 }
 
@@ -135,7 +133,6 @@ footer {
 .container__down {
   width: 90%;
   height: 80%;
-  /* margin: auto; */
   padding: 20px;
   box-sizing: border-box;
 }
@@ -161,7 +158,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: darkgreen; */
   }
     /* le container main */
     .main {
@@ -172,23 +168,11 @@ footer {
     margin: auto;
     display: flex;
   }
-  /* .description__title {
-    background-color: darkgrey;
-  } */
+
   .description__title h2 {
     width: 35%;
     margin: auto;
   }
-    /* .reservia{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-    }
-    .description{
-      display: flex;
-      flex-wrap: wrap;
-    } */
-
 
   /* le footer */
     footer {
@@ -197,20 +181,17 @@ footer {
     .container__down{
       width: 80%;
       margin: 20px auto;
-      /* background-color: lightgray; */
     }
     .container__down h4 {
       width: 50%;
       margin: 20px auto;
       display: flex;
       justify-content: center;
-      /* background-color: darkgray; */
     }
     .list__footer {
       display: flex;
       width: 100%;
       margin: auto;
-      /* background-color: lightgreen; */
     }
     .list__footer ul {
     display: flex;
@@ -218,7 +199,6 @@ footer {
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    /* background-color: darkgreen; */
     }
 }
 /* Mode desktop */
@@ -234,24 +214,21 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: darkgreen; */
   }
   /* le container main */
   .main {
-  display: flex;
-  gap: 10%;
-}
+    display: flex;
+    gap: 20%;
+  }
   .reservia{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* background-color: darkgreen; */
     padding: 20px;
     box-sizing: border-box;
   }
   .maquette {
     width: auto;
-    /* margin: 10px auto; */
   }
   .maquette img {
     width: auto;
@@ -259,15 +236,13 @@ footer {
     margin: auto;
   }
   .description__title {
-    /* background-color: darkgrey; */
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
-    background-color: darkgray;
   }
   .description__title h2 {
-    width: 100%;
+    width: 50%;
     margin: auto;
     font-size: 1.5rem;
     display: flex;
@@ -280,9 +255,8 @@ footer {
   .description{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     gap: 10%;
-    margin: 20px 0;
+    margin: 23px 0;
 
   }
   .story__container {
@@ -291,7 +265,6 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* background-color: lightgreen; */
     gap: 10%;
 
   }
@@ -309,20 +282,17 @@ footer {
     .container__down{
       max-width: 1500px;
       margin: 20px auto;
-      /* background-color: lightgray; */
     }
     .container__down h4 {
       width: 50%;
       margin: 20px auto;
       display: flex;
       justify-content: center;
-      /* background-color: darkgray; */
     }
     .list__footer {
       display: flex;
       width: 100%;
       margin: auto;
-      /* background-color: lightgreen; */
     }
     .list__footer ul {
     display: flex;
@@ -330,6 +300,5 @@ footer {
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    /* background-color: darkgreen; */
   }
 }
