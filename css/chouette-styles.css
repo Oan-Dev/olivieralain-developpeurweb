@@ -54,12 +54,18 @@ nav ul li {
   width: auto;
   margin: 10px auto;
 }
-.main__title h1{
-  width: 80%;
+.main__title h1 {
+  width: 100%;
   margin: auto;
   font-size: 1.25rem;
   line-height: 1.25;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.main__title h1 span {
+display: flex;
+justify-content: center;
 }
 /* l'image de la maquette */
 
@@ -69,13 +75,8 @@ nav ul li {
 }
 .maquette img {
   width: auto;
-  height: 400px;
+  height: 280px;
   margin: auto;
-}
-.ohmyfood-img{
-  display: flex;
-  flex-direction: row;
-  gap: 10%;
 }
 /* la description */
 .description {
@@ -84,9 +85,16 @@ nav ul li {
   /* gap: 10px; */
 }
 .description__title h2 {
-  width: 75%;
+  width: 80%;
   margin: auto;
   font-size: 1.05rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: darkgray; */
+}
+.description__title h2  span {
+display: flex;
+justify-content: center;
 }
 .description .card {
   /* width: auto; */
