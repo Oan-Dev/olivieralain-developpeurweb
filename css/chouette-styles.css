@@ -82,7 +82,6 @@ justify-content: center;
 .description {
   width: 100%;
   margin: auto;
-  /* gap: 10px; */
 }
 .description__title h2 {
   width: 80%;
@@ -90,14 +89,12 @@ justify-content: center;
   font-size: 1.05rem;
   display: flex;
   flex-direction: column;
-  /* background-color: darkgray; */
 }
 .description__title h2  span {
 display: flex;
 justify-content: center;
 }
 .description .card {
-  /* width: auto; */
   width: 300px;
   height: 300px;
   background-color: #303030;
@@ -120,8 +117,6 @@ justify-content: center;
   align-items: center;
 }
 .btn a {
-  /* width: 50%;
-  margin: auto; */
   color: #fff;
 }
 
@@ -135,7 +130,6 @@ footer {
 .container__down {
   width: 90%;
   height: 80%;
-  /* margin: auto; */
   padding: 20px;
   box-sizing: border-box;
 }
@@ -161,7 +155,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: darkgreen; */
   }
     /* le container main */
     .main {
@@ -172,22 +165,11 @@ footer {
     margin: auto;
     display: flex;
   }
-  /* .description__title {
-    background-color: darkgrey;
-  } */
+
   .description__title h2 {
     width: 35%;
     margin: auto;
   }
-    /* .reservia{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-    }
-    .description{
-      display: flex;
-      flex-wrap: wrap;
-    } */
     .ohmyfood-img{
       gap: 20%;
     }
@@ -199,20 +181,17 @@ footer {
     .container__down{
       width: 80%;
       margin: 20px auto;
-      /* background-color: lightgray; */
     }
     .container__down h4 {
       width: 50%;
       margin: 20px auto;
       display: flex;
       justify-content: center;
-      /* background-color: darkgray; */
     }
     .list__footer {
       display: flex;
       width: 100%;
       margin: auto;
-      /* background-color: lightgreen; */
     }
     .list__footer ul {
     display: flex;
@@ -220,7 +199,6 @@ footer {
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    /* background-color: darkgreen; */
     }
 }
 /* Mode desktop */
@@ -236,7 +214,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: darkgreen; */
   }
   /* le container main */
   .main {
@@ -248,13 +225,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* background-color: darkgreen; */
     padding: 20px;
     box-sizing: border-box;
   }
   .maquette {
     width: auto;
-    /* margin: 10px auto; */
   }
 
   .maquette img {
@@ -269,7 +244,6 @@ footer {
     gap: 10%;
   }
   .description__title {
-    background-color: darkgrey;
     width: 80%;
     margin: auto;
     display: flex;
@@ -285,11 +259,9 @@ footer {
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     gap: 10%;
     margin: 20px auto;
     box-sizing: border-box;
-    background-color: darkgrey;
 
   }
   .story__container {
@@ -298,7 +270,6 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* background-color: lightgreen; */
     gap: 10%;
 
   }
@@ -316,20 +287,17 @@ footer {
     .container__down{
       max-width: 1500px;
       margin: 20px auto;
-      /* background-color: lightgray; */
     }
     .container__down h4 {
       width: 50%;
       margin: 20px auto;
       display: flex;
       justify-content: center;
-      /* background-color: darkgray; */
     }
     .list__footer {
       display: flex;
       width: 100%;
       margin: auto;
-      /* background-color: lightgreen; */
     }
     .list__footer ul {
     display: flex;
@@ -337,6 +305,5 @@ footer {
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    /* background-color: darkgreen; */
   }
 }
