@@ -103,6 +103,26 @@ justify-content: center;
   background-color: #303030;
   border-radius: 20px;
   margin: 20px auto;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  padding: 15px;
+}
+.description .card p {
+  text-align: justify;
+  line-height: 1.15;
+  display: flex;
+}
+.description .card p ul{
+  display: flex;
+  justify-content: center;
+  /* text-align: justify; */
+}
+.description .card p ul li {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin: 20px auto;
+
 }
 /* le bouton vers le formulaire */
 .btn__container{
