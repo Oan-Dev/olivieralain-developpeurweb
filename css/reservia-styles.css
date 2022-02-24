@@ -109,20 +109,11 @@ justify-content: center;
 }
 .description .card p {
   text-align: justify;
-  line-height: 1.15;
   display: flex;
 }
-.description .card p ul{
-  display: flex;
-  justify-content: center;
-  /* text-align: justify; */
-}
-.description .card p ul li {
-  display: flex;
-  justify-content: center;
+.story-list {
+  line-height: 1.25;
   text-align: justify;
-  margin: 20px auto;
-
 }
 /* le bouton vers le formulaire */
 .btn__container{
