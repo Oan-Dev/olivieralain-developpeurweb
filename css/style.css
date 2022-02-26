@@ -155,10 +155,8 @@ input, button, textarea {
 }
 .contact__box {
   width: 350px;
-  /* width: auto; */
   margin: auto;
   display: flex;
-  /* background-color: darkgreen; */
 }
 form {
   width: 90%;
