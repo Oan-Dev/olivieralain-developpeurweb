@@ -1,0 +1,45 @@
+/* General */
+
+
+
+/* animations pour l'index */
+/* Pour le header */
+.logo:hover {
+  transform: scale(1.05);
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #ffc576;
+  font-style: italic;
+  border-bottom: 2px solid #fff;
+}
+
+
+/* Pour le projets */
+.card:hover {
+  transform: scale(1.05);
+  font-style: italic;
+}
+/* Pour la partie Mes langages */
+.fa-brands:hover,
+.fa-brands:focus,
+.fa-linkedin:hover,
+.fa-linkedin:focus {
+  /* content: "HTML5"; */
+  transform: scale(1.25);
+  color: #fff;
+}
+
+
+/* Pour le formulaire */
+.consigne p:hover,
+.consigne p:focus {
+  color: #fff;
+}
+
+input:focus, textarea:focus {
+  transform: scale(1.05);
+}
+.btn__box button:hover {
+  transform: scale(1.25)
+}
