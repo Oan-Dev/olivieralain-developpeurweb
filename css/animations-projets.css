@@ -23,12 +23,14 @@ nav ul li a:focus {
 .card:hover,
 .card:focus {
   transform: scale(1.02);
+  color: #fff;
 }
 .card:hover p,
 .card:focus p,
+.card:hover p ul,
+.card:focus p ul,
 .card:hover .story-list,
 .card:focus .story-list{
-  /* transform: scale(1.02); */
   color: #fff;
 }
 .card:hover .story-list a,
