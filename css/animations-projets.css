@@ -1,0 +1,43 @@
+/* animations pour les pages projets */
+/* Pour Général, header + footer */
+.logo:hover {
+  transform: scale(1.05);
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #ffc576;
+  font-style: italic;
+  border-bottom: 2px solid #fff;
+}
+/* Pour la partie les icônes */
+.fa-brands:hover,
+.fa-brands:focus,
+.fa-linkedin:hover,
+.fa-linkedin:focus {
+  /* content: "HTML5"; */
+  transform: scale(1.25);
+  color: #fff;
+}
+/* Pour la partie Description */
+
+.card:hover,
+.card:focus {
+  transform: scale(1.02);
+}
+.card:hover p,
+.card:focus p,
+.card:hover .story-list,
+.card:focus .story-list{
+  /* transform: scale(1.02); */
+  color: #fff;
+}
+.card:hover .story-list a,
+.card:focus .story-list a{
+  color: #ffc576;
+  border-bottom: 2px solid #fff;
+  font-style: italic;
+}
+/* Pour le Bouton */
+.btn__container:hover {
+  transform: scale(1.15);
+}

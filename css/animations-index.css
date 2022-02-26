@@ -20,7 +20,7 @@ nav ul li a:focus {
   transform: scale(1.05);
   font-style: italic;
 }
-/* Pour la partie Mes langages */
+/* Pour la partie les icônes */
 .fa-brands:hover,
 .fa-brands:focus,
 .fa-linkedin:hover,
@@ -41,5 +41,5 @@ input:focus, textarea:focus {
   transform: scale(1.05);
 }
 .btn__box button:hover {
-  transform: scale(1.25)
+  transform: scale(1.25);
 }
