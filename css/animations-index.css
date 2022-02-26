@@ -25,7 +25,6 @@ nav ul li a:focus {
 .fa-brands:focus,
 .fa-linkedin:hover,
 .fa-linkedin:focus {
-  /* content: "HTML5"; */
   transform: scale(1.25);
   color: #fff;
 }
