@@ -158,7 +158,7 @@ input, button, textarea {
   width: auto;
   margin: auto;
   display: flex;
-  /* background-color: darkgreen; */
+  background-color: darkgreen;
 }
 .form-group, .btn__box {
   margin: 10px auto;
