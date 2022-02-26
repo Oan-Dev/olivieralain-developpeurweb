@@ -154,7 +154,8 @@ input, button, textarea {
   color: #000;
 }
 .contact__box {
-  width: 350px;
+  /* width: 350px; */
+  width: auto;
   margin: auto;
   display: flex;
   /* background-color: darkgreen; */
