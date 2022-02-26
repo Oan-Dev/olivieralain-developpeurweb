@@ -39,5 +39,5 @@ nav ul li a:focus {
 }
 /* Pour le Bouton */
 .btn__container:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
