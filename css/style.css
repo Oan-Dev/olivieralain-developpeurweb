@@ -1,18 +1,20 @@
 /* Mobile first layout */
-
 * {
   margin: 0;
   padding: 0;
   color: #ffc576;
   font-family: "Roboto", Verdana, Tahoma, sans-serif;
 }
+
 body {
   background-color: #1f2235;
 }
+
 a {
   text-decoration: none;
   color: #fff;
 }
+
 /* l'entête avec la navBar  */
 header {
   display: flex;
@@ -35,7 +37,8 @@ nav ul li {
   list-style: none;
   margin: 8px 0;
 }
-.logo{
+
+.logo {
   background-image: url(../images/logo/OlivierALAIN.jpg);
   width: 70px;
   height: 70px;
@@ -51,6 +54,7 @@ nav ul li {
   width: 95%;
   margin: 20px auto;
 }
+
 .title__box {
   width: 100%;
   height: 100%;
@@ -58,10 +62,12 @@ nav ul li {
   flex-direction: column;
   margin: 20px auto;
 }
+
 .welcome, .main__title {
   display: flex;
   justify-content: center;
 }
+
 .welcome__block p {
   font-size: 1.5rem;
   margin: 20px auto;
@@ -72,10 +78,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
+
 h1 span:first-child {
   width: 90%;
   margin: auto;
 }
+
 h1 span {
   color: #fff;
 }
@@ -103,10 +111,9 @@ h1 span {
 }
 
 .card {
-  width:  300px;
+  width: 300px;
   height: 300px;
   margin: 20px auto;
-  /* border: 5px solid black; */
   border-radius: 0 0 20px 20px;
 }
 
@@ -114,10 +121,8 @@ h1 span {
   width: 80%;
   margin: 0 auto;
 }
-/* .OC__projects a {
-  gap: 20px;
-} */
-.projects__title{
+
+.projects__title {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -125,76 +130,84 @@ h1 span {
 
 .project__title {
   font-size: 1.15rem;
-  /* background-color: #303030; */
   display: flex;
 }
+
 .project__title h3 {
-  /* width: 50%; */
   margin: 10px auto;
   justify-content: center;
   color: #fff;
 }
+
 /* le formulaire */
 .consigne {
   width: 70%;
-  /* height: 180px; */
   color: #fff;
   margin: 20px auto;
-  /* background-color: darkgreen; */
-  /* box-sizing: border-box; */
 }
+
 .consigne p {
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-    line-height: 1.75;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  line-height: 1.75;
 }
 
 input, button, textarea {
   color: #000;
 }
+
 .contact__box {
   width: 350px;
   margin: auto;
   display: flex;
 }
+
 form {
   width: 90%;
   margin: auto;
   padding: 10px;
   box-sizing: border-box;
 }
+
 .form-group, .btn__box {
   margin: 10px auto;
   display: flex;
   justify-content: flex-end;
 }
+
 label {
   margin-right: 10px;
 }
+
 .textarea {
   display: flex;
   flex-direction: column;
   padding: 10px;
   box-sizing: border-box;
 }
+
 .textarea label {
   margin-bottom: 10px;
 }
+
 /* La partie d'informaion sur mes langages */
 .techno {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
+
 .techno__title {
   width: auto;
   margin: auto;
 }
+
 .techno__title h2 {
   width: 100%;
   margin: auto;
 }
+
 .language__box {
   width: 300px;
   margin: 20px auto;
@@ -212,7 +225,6 @@ footer {
 .container__down {
   width: 90%;
   height: 80%;
-  /* margin: auto; */
   padding: 20px;
   box-sizing: border-box;
 }
@@ -228,96 +240,97 @@ footer {
 }
 
 /* Le Responsive */
-
 /* Mode Tablette */
 @media screen and (min-width: 768px) and (max-width: 1239px) {
-
   nav ul {
     min-width: 500px;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: darkgreen; */
   }
-    footer {
-      width:100%;
-    }
-    .container__down{
-      width: 80%;
-      margin: 20px auto;
-      /* background-color: lightgray; */
-    }
-    .container__down h4 {
-      width: 50%;
-      margin: 20px auto;
-      display: flex;
-      justify-content: center;
-      /* background-color: darkgray; */
-    }
-    .list__footer {
-      display: flex;
-      width: 100%;
-      margin: auto;
-      /* background-color: lightgreen; */
-    }
-    .list__footer ul {
+
+  footer {
+    width: 100%;
+  }
+
+  .container__down {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .container__down h4 {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list__footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .list__footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    /* background-color: darkgreen; */
-    }
+  }
 }
+
 /* Mode desktop */
 @media screen and (min-width: 1240px) {
   nav {
     max-width: 1500px;
     margin: auto;
   }
+
   nav ul {
     min-width: 500px;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: darkgreen; */
   }
-  .OC__projects{
+
+  .OC__projects {
     max-width: 1500px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-    footer {
-      width:100%;
-    }
-    .container__down{
-      max-width: 1500px;
-      margin: 20px auto;
-      /* background-color: lightgray; */
-    }
-    .container__down h4 {
-      width: 50%;
-      margin: 20px auto;
-      display: flex;
-      justify-content: center;
-      /* background-color: darkgray; */
-    }
-    .list__footer {
-      display: flex;
-      width: 100%;
-      margin: auto;
-      /* background-color: lightgreen; */
-    }
-    .list__footer ul {
+
+  footer {
+    width: 100%;
+  }
+
+  .container__down {
+    max-width: 1500px;
+    margin: 20px auto;
+  }
+
+  .container__down h4 {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list__footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .list__footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    /* background-color: darkgreen; */
   }
 }

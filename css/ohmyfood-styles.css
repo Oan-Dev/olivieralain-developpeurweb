@@ -5,13 +5,16 @@
   color: #ffc576;
   font-family: "Roboto", Verdana, Tahoma, sans-serif;
 }
+
 body {
   background-color: #1f2235;
 }
+
 a {
   text-decoration: none;
   color: #fff;
 }
+
 /* l'entête avec la navBar  */
 header {
   display: flex;
@@ -34,7 +37,8 @@ nav ul li {
   list-style: none;
   margin: 8px 0;
 }
-.logo{
+
+.logo {
   background-image: url(../images/logo/OlivierALAIN.jpg);
   width: 70px;
   height: 70px;
@@ -50,11 +54,13 @@ nav ul li {
   width: 95%;
   margin: 20px auto;
 }
+
 /* le titre principal */
-.main__title{
+.main__title {
   width: auto;
   margin: 10px auto;
 }
+
 .main__title h1 {
   width: 100%;
   margin: auto;
@@ -64,31 +70,36 @@ nav ul li {
   display: flex;
   flex-direction: column;
 }
+
 .main__title h1 {
   display: flex;
   justify-content: center;
 }
-/* l'image de la maquette */
 
+/* l'image de la maquette */
 .maquette {
   width: 300px;
   margin: 10px auto;
 }
+
 .maquette img {
   width: auto;
   height: 400px;
   margin: auto;
 }
-.ohmyfood-img{
+
+.ohmyfood-img {
   display: flex;
   flex-direction: row;
   gap: 10%;
 }
+
 /* la description */
 .description {
   width: 100%;
   margin: auto;
 }
+
 .description__title h2 {
   width: 100%;
   margin: auto;
@@ -96,12 +107,13 @@ nav ul li {
   display: flex;
   flex-direction: column;
 }
+
 .description__title h2 span {
   display: flex;
   justify-content: center;
 }
+
 .description .card {
-  /* width: auto; */
   width: 300px;
   height: 300px;
   background-color: #303030;
@@ -111,6 +123,7 @@ nav ul li {
   padding: 25px;
   box-sizing: border-box;
 }
+
 .description .card p {
   text-align: justify;
   display: flex;
@@ -122,11 +135,13 @@ nav ul li {
   padding: 10px;
   box-sizing: border-box;
 }
+
 /* le bouton vers le formulaire */
-.btn__container{
+.btn__container {
   width: auto;
   margin: 20px auto;
 }
+
 .btn {
   width: 200px;
   height: 50px;
@@ -137,8 +152,8 @@ nav ul li {
   justify-content: center;
   align-items: center;
 }
-.btn a {
 
+.btn a {
   color: #fff;
 }
 
@@ -167,9 +182,9 @@ footer {
 }
 
 /* Le Responsive */
-
 /* Mode Tablette */
 @media screen and (min-width: 768px) and (max-width: 1239px) {
+
   /* le header */
   nav ul {
     min-width: 500px;
@@ -178,10 +193,12 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
-    /* le container main */
-    .main {
+
+  /* le container main */
+  .main {
     display: flex;
   }
+
   .story {
     width: auto;
     margin: auto;
@@ -192,44 +209,52 @@ footer {
     width: 35%;
     margin: auto;
   }
-    .ohmyfood-img{
-      gap: 20%;
-    }
+
+  .ohmyfood-img {
+    gap: 20%;
+  }
 
   /* le footer */
-    footer {
-      width:100%;
-    }
-    .container__down{
-      width: 80%;
-      margin: 20px auto;
-    }
-    .container__down h4 {
-      width: 50%;
-      margin: 20px auto;
-      display: flex;
-      justify-content: center;
-    }
-    .list__footer {
-      display: flex;
-      width: 100%;
-      margin: auto;
-    }
-    .list__footer ul {
+  footer {
+    width: 100%;
+  }
+
+  .container__down {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .container__down h4 {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list__footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .list__footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    }
+  }
 }
+
 /* Mode desktop */
 @media screen and (min-width: 1240px) {
+
   /* le header */
   nav {
     max-width: 1500px;
     margin: auto;
   }
+
   nav ul {
     min-width: 500px;
     height: 100px;
@@ -237,19 +262,22 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
+
   /* le container main */
   .main {
-  display: flex;
-  width: 100%;
-  gap: 10%;
-}
-  .reservia, .chouette, .ohmyfood{
+    display: flex;
+    width: 100%;
+    gap: 10%;
+  }
+
+  .reservia, .chouette, .ohmyfood {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
   }
+
   .maquette {
     width: auto;
   }
@@ -259,24 +287,29 @@ footer {
     height: 760px;
     margin: auto;
   }
-  .ohmyfood-img{
+
+  .ohmyfood-img {
     gap: 30%;
   }
+
   .chouette {
     gap: 10%;
   }
+
   .description__title {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
   }
+
   .description__title h2 {
     width: 70%;
     margin: auto;
     font-size: 1.5rem;
   }
-  .description{
+
+  .description {
     width: 50%;
     height: 100%;
     display: flex;
@@ -284,8 +317,8 @@ footer {
     gap: 10%;
     margin: 20px auto;
     box-sizing: border-box;
-
   }
+
   .story__container {
     width: 80%;
     margin: auto;
@@ -293,8 +326,8 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10%;
-
   }
+
   .story {
     width: auto;
     margin: auto;
@@ -302,26 +335,30 @@ footer {
     gap: 10%;
   }
 
-/* le footer */
-    footer {
-      width:100%;
-    }
-    .container__down{
-      max-width: 1500px;
-      margin: 20px auto;
-    }
-    .container__down h4 {
-      width: 50%;
-      margin: 20px auto;
-      display: flex;
-      justify-content: center;
-    }
-    .list__footer {
-      display: flex;
-      width: 100%;
-      margin: auto;
-    }
-    .list__footer ul {
+  /* le footer */
+  footer {
+    width: 100%;
+  }
+
+  .container__down {
+    max-width: 1500px;
+    margin: 20px auto;
+  }
+
+  .container__down h4 {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list__footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .list__footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

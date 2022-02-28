@@ -5,13 +5,16 @@
   color: #ffc576;
   font-family: "Roboto", Verdana, Tahoma, sans-serif;
 }
+
 body {
   background-color: #1f2235;
 }
+
 a {
   text-decoration: none;
   color: #fff;
 }
+
 /* l'entête avec la navBar  */
 header {
   display: flex;
@@ -34,7 +37,8 @@ nav ul li {
   list-style: none;
   margin: 8px 0;
 }
-.logo{
+
+.logo {
   background-image: url(../images/logo/OlivierALAIN.jpg);
   width: 70px;
   height: 70px;
@@ -51,11 +55,13 @@ nav ul li {
   margin: 20px auto;
   gap: 20%;
 }
+
 /* le titre principal */
-.main__title{
+.main__title {
   width: auto;
   margin: 10px auto;
 }
+
 .main__title h1 {
   width: 100%;
   margin: auto;
@@ -65,27 +71,30 @@ nav ul li {
   display: flex;
   flex-direction: column;
 }
+
 .main__title h1 span {
   display: flex;
   justify-content: center;
 }
-/* l'image de la maquette */
 
+/* l'image de la maquette */
 .maquette {
   width: 300px;
   margin: 10px auto;
-
 }
+
 .maquette img {
   width: auto;
   height: 400px;
   margin: auto;
 }
+
 /* la description */
 .description {
   width: 100%;
   margin: auto;
 }
+
 .description__title h2 {
   width: 100%;
   margin: auto;
@@ -93,12 +102,13 @@ nav ul li {
   display: flex;
   flex-direction: column;
 }
+
 .description__title h2 span {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 .description .card {
-  /* width: auto; */
   width: 300px;
   height: 300px;
   background-color: #303030;
@@ -108,6 +118,7 @@ justify-content: center;
   padding: 25px;
   box-sizing: border-box;
 }
+
 .description .card p {
   text-align: justify;
   display: flex;
@@ -119,11 +130,13 @@ justify-content: center;
   padding: 10px;
   box-sizing: border-box;
 }
+
 /* le bouton vers le formulaire */
-.btn__container{
+.btn__container {
   width: auto;
   margin: 20px auto;
 }
+
 .btn {
   width: 200px;
   height: 50px;
@@ -134,6 +147,7 @@ justify-content: center;
   justify-content: center;
   align-items: center;
 }
+
 .btn a {
   color: #fff;
 }
@@ -163,9 +177,9 @@ footer {
 }
 
 /* Le Responsive */
-
 /* Mode Tablette */
 @media screen and (min-width: 768px) and (max-width: 1239px) {
+
   /* le header */
   nav ul {
     min-width: 500px;
@@ -174,10 +188,12 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
-    /* le container main */
-    .main {
+
+  /* le container main */
+  .main {
     display: flex;
   }
+
   .story {
     width: auto;
     margin: auto;
@@ -190,39 +206,46 @@ footer {
   }
 
   /* le footer */
-    footer {
-      width:100%;
-    }
-    .container__down{
-      width: 80%;
-      margin: 20px auto;
-    }
-    .container__down h4 {
-      width: 50%;
-      margin: 20px auto;
-      display: flex;
-      justify-content: center;
-    }
-    .list__footer {
-      display: flex;
-      width: 100%;
-      margin: auto;
-    }
-    .list__footer ul {
+  footer {
+    width: 100%;
+  }
+
+  .container__down {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .container__down h4 {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list__footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .list__footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    }
+  }
 }
+
 /* Mode desktop */
 @media screen and (min-width: 1240px) {
+
   /* le header */
   nav {
     max-width: 1500px;
     margin: auto;
   }
+
   nav ul {
     min-width: 500px;
     height: 100px;
@@ -230,32 +253,38 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
+
   /* le container main */
   .main {
     display: flex;
     gap: 20%;
   }
-  .reservia{
+
+  .reservia {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
   }
+
   .maquette {
     width: auto;
   }
+
   .maquette img {
     width: auto;
     height: 760px;
     margin: auto;
   }
+
   .description__title {
     width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
   }
+
   .description__title h2 {
     width: 50%;
     margin: auto;
@@ -263,17 +292,19 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
   .description__title h2 {
     display: flex;
     justify-content: center;
   }
-  .description{
+
+  .description {
     display: flex;
     flex-direction: column;
     gap: 10%;
     margin: 23px 0;
-
   }
+
   .story__container {
     width: 80%;
     margin: auto;
@@ -281,8 +312,8 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10%;
-
   }
+
   .story {
     width: auto;
     margin: auto;
@@ -290,27 +321,31 @@ footer {
     gap: 10%;
   }
 
-/* le footer */
-    footer {
-      width:100%;
-    }
-    .container__down{
-      width: 100%;
-      max-width: 1500px;
-      margin: 20px auto;
-    }
-    .container__down h4 {
-      width: 100%;
-      margin: 20px auto;
-      display: flex;
-      justify-content: center;
-    }
-    .list__footer {
-      display: flex;
-      width: 100%;
-      margin: auto;
-    }
-    .list__footer ul {
+  /* le footer */
+  footer {
+    width: 100%;
+  }
+
+  .container__down {
+    width: 100%;
+    max-width: 1500px;
+    margin: 20px auto;
+  }
+
+  .container__down h4 {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list__footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .list__footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
